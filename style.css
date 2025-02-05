@@ -1,0 +1,51 @@
+html,body{
+    background-color: #bd3944;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1{
+    font-size: 80px;
+    color: #000000;
+    text-shadow: 3px 3px 5px black;  
+
+}
+
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:visted{
+    color: rgb(0, 0, 0);
+
+}
+a:hover{
+    text-shadow: 2px 2px 3px black;
+
+}
+ul {
+	list-style-type: none; /* Get rid of bullets for ul */
+	margin: 0px; /* No spaces around the ul */
+	padding: 0px; /* No spaces inside the ul */
+	overflow: hidden; /* Don't allow the floated li blocks to collapse the navbar */
+	background-color: rgb(77, 74, 74);
+}
+
+li {
+	float:left; /* Float each li block to the top left beside each other */
+}
+
+li a {
+	display: block; /* Allow the element to take up its own line and space */
+	color: white;
+	text-align: center; /* Center the text in the block */
+	padding: 14px 16px; /* 14px space on the top and bottom; 16px space on the left and right */
+	text-decoration: none; /* Do not underline the link */
+}
+
+li a:hover:not(.active) { /* Change colour on hover of all blocks but NOT the .active class */
+	background-color: #000000;
+}
+
+.active { /* The active class */
+	background-color: #000000;
+}
